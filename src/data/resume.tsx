@@ -241,7 +241,7 @@ export const DATA = {
       active: true,
       image: "/nextTube.jpg",
       description:
-        "Built using Next.js for server-side rendering and optimized performance. Integrated NextAuth.js for authentication with Google. Implemented robust search feature and utilized YouTube API to fetch real-time video data. Fully responsive across all devices.",
+        "Built using Next.js for server-side rendering and optimized performance. Implemented robust search feature and utilized YouTube API to fetch real-time video data. Fully responsive across all devices.",
       technologies: ["Next.js", "NextAuth.js", "YouTube API"],
       links: [
         {
