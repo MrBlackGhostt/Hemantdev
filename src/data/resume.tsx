@@ -87,7 +87,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Frontend Developer",
-      logoUrl: "/auto-connect.png",
+      logoUrl: "/auto-connect.jpg",
       start: "Dec 2024",
       end: "Sep 2025",
       description:
@@ -137,7 +137,7 @@ export const DATA = {
       school: "Delhi Technological University",
       href: "http://dtu.ac.in",
       degree: "B.Tech in Mechanical Engineering",
-      logoUrl: "/DTU.png",
+      logoUrl: "/DTU.jpg",
       start: "2018",
       end: "2022",
     },
@@ -171,7 +171,7 @@ export const DATA = {
       href: "https://pool.fun.hemantdev.com/",
       dates: "",
       active: true,
-      image: "/pool-fun.png",
+      image: "/pool-fun.jpg",
       description:
         "A bonding curve token launchpad on Solana inspired by Pump.fun. Implements automated market maker mechanics and dynamic pricing curves for fair token launches.",
       technologies: ["Solana", "Rust", "Anchor", "Next.js"],
@@ -190,11 +190,11 @@ export const DATA = {
       video: "",
     },
     {
-      title: "OrderBook",
+      title: "LimitDex",
       href: "https://orderbook.hemantdev.com/",
       dates: "",
       active: true,
-      image: "/limitDex.png",
+      image: "/limitDex.jpg",
       description:
         "A high-performance central limit order book (CLOB) implementation on Solana. Features limit order placement, matching engine logic, and real-time order tracking.",
       technologies: ["Solana", "Rust", "Anchor", "Next.js"],
@@ -217,7 +217,7 @@ export const DATA = {
       href: "https://lazorkit-wallet.hemantdev.com/",
       dates: "",
       active: true,
-      image: "/Lazorkit.png",
+      image: "/Lazorkit.jpg",
       description:
         "A modern Solana wallet adapter and UI kit designed for seamless dApp integration. Provides a customizable and lightweight interface for connecting Solana wallets.",
       technologies: ["Solana", "Wallet Adapter", "React", "Tailwind CSS"],
@@ -240,7 +240,7 @@ export const DATA = {
       href: "https://nexttube.hemantdev.com",
       dates: "",
       active: true,
-      image: "/nextTube.png",
+      image: "/nextTube.jpg",
       description:
         "Built using Next.js for server-side rendering and optimized performance. Integrated NextAuth.js for authentication with Google. Implemented robust search feature and utilized YouTube API to fetch real-time video data. Fully responsive across all devices.",
       technologies: ["Next.js", "NextAuth.js", "YouTube API"],
