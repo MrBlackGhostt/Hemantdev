@@ -1,0 +1,263 @@
+import { Icons } from "@/components/icons";
+import { HomeIcon, NotebookIcon } from "lucide-react";
+import { ReactLight } from "@/components/ui/svgs/reactLight";
+import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
+import { Typescript } from "@/components/ui/svgs/typescript";
+import { Nodejs } from "@/components/ui/svgs/nodejs";
+import { Python } from "@/components/ui/svgs/python";
+import { Postgresql } from "@/components/ui/svgs/postgresql";
+import { Docker } from "@/components/ui/svgs/docker";
+
+export const DATA = {
+  name: "Hemant Kumar",
+  initials: "HK",
+  url: "https://hemant-code1.vercel.app",
+  location: "Remote, India",
+  locationLink: "https://www.google.com/maps/place/India",
+  description:
+    "Full-Stack & Solana Developer. Building modern web apps and blockchain solutions.",
+  summary:
+    "I'm a Full-Stack Developer specializing in building modern web applications and Solana blockchain solutions. I've worked across the entire stack—from crafting pixel-perfect UIs with React and Next.js to architecting smart contracts in Rust and Anchor. I've shipped production applications for startups in electric vehicles, sports streaming, and tourism, while actively contributing to the Web3 ecosystem. Currently learning and building in the Solana space, focusing on DeFi protocols, AMMs, and distributed systems.",
+  avatarUrl:
+    "https://i.pinimg.com/1200x/94/82/0d/94820deeadd632ae32c3069e85907c8b.jpg",
+  skills: [
+    { name: "Anchor Framework" },
+    { name: "SPL Tokens" },
+    { name: "DeFi Protocols" },
+    { name: "Rust" },
+    { name: "TypeScript", icon: Typescript },
+    { name: "JavaScript" },
+    { name: "React", icon: ReactLight },
+    { name: "Next.js", icon: NextjsIconDark },
+    { name: "Tailwind CSS", icon: Icons.tailwindcss },
+    { name: "Shadcn UI" },
+    { name: "Node.js", icon: Nodejs },
+    { name: "Express" },
+    { name: "FastAPI" },
+    { name: "PostgreSQL", icon: Postgresql },
+    { name: "MongoDB" },
+    { name: "Redis" },
+    { name: "Prisma" },
+    { name: "Docker", icon: Docker },
+    { name: "Git", icon: Icons.github },
+    { name: "Amazon EC2" },
+  ],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    {
+      href: "https://mrblackghost-how-ai-agent-work.hashnode.dev/",
+      icon: NotebookIcon,
+      label: "Blog",
+    },
+  ],
+  contact: {
+    email: "midnightmail@tutamail.com",
+    tel: "",
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/MrBlackGhostt/",
+        icon: Icons.github,
+        navbar: true,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/mrhemantkumarr/",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "https://x.com/HKsoldev",
+        icon: Icons.x,
+        navbar: true,
+      },
+      email: {
+        name: "Send Email",
+        url: "mailto:midnightmail@tutamail.com",
+        icon: Icons.email,
+        navbar: true,
+      },
+    },
+  },
+  work: [
+    {
+      company: "autoconnect",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer",
+      logoUrl: "/auto-connect.png",
+      start: "Dec 2024",
+      end: "Sep 2025",
+      description:
+        "Developed the frontend for autoconnect, including secure user authentication and a dedicated page for generating electric vehicle data reports (battery status, health metrics). Integrated real-time vehicle data from external car connect services. Built using Next.js and Shadcn UI.",
+    },
+    {
+      company: "Calara Barcelona",
+      href: "https://clarabarcelo.us/",
+      badges: [],
+      location: "Remote",
+      title: "Freelance Developer",
+      logoUrl:
+        "https://d3k81ch9hvuctc.cloudfront.net/company/RvHhne/images/9c15677e-8ea4-41a4-a5f1-37074f60553d.png",
+      start: "Oct 2025",
+      end: "Nov 2025",
+      description:
+        "Developed an Instagram engagement bot using Puppeteer with targeted user actions (liking, commenting, following, DMs). Implemented a comprehensive dashboard for viewing logs, tracking targeted users, monitoring message delivery, and error handling.",
+    },
+    {
+      company: "Disporty LTD",
+      href: "https://disporty.com/en",
+      badges: [],
+      location: "Remote",
+      title: "Fullstack Developer",
+      logoUrl: "/disporty-logo.webp",
+      start: "Jan 2024",
+      end: "Oct 2024",
+      description:
+        "Engineered optimized UI using React, Next.js, and Tailwind CSS. Boosted performance by migrating 60% of client-side components to SSR. Secured authentication with NextAuth.js and developed backend functionalities using Node.js and FastAPI. Replaced Material UI with Shadcn UI for consistency and improved styling.",
+    },
+    {
+      company: "Delhi By Cycle",
+      href: "https://www.delhibycycle.com/",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer",
+      logoUrl:
+        "https://dbcpictures.s3.ap-south-1.amazonaws.com/logo+and+graphics/transparent+logo+DBC.webp",
+      start: "Nov 2022",
+      end: "Dec 2023",
+      description:
+        "Built responsive, high-performance user interfaces using React, Redux Toolkit, Tailwind CSS, and Material-UI. Spearheaded UI enhancements that significantly improved user experience. Engineered pixel-perfect, customizable themes using React hooks, Redux, and styled components.",
+    },
+  ],
+  education: [
+    {
+      school: "Delhi Technological University",
+      href: "http://dtu.ac.in",
+      degree: "B.Tech in Mechanical Engineering",
+      logoUrl: "/DTU.png",
+      start: "2018",
+      end: "2022",
+    },
+  ],
+  projects: [
+    {
+      title: "SolBet - Prediction Market",
+      href: "https://solbet.hemantdev.com/",
+      dates: "",
+      active: true,
+      image: "/solbet.png",
+      description:
+        "A decentralized prediction market on Solana allowing users to bet on future events. Built with Anchor and Rust, featuring secure escrow handling and outcome resolution.",
+      technologies: ["Solana", "Rust", "Anchor", "Next.js"],
+      links: [
+        {
+          type: "Website",
+          href: "https://solbet.hemantdev.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MrBlackGhostt/predection_market",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "",
+    },
+    {
+      title: "Pool Fun",
+      href: "https://pool.fun.hemantdev.com/",
+      dates: "",
+      active: true,
+      image: "/pool-fun.png",
+      description:
+        "A bonding curve token launchpad on Solana inspired by Pump.fun. Implements automated market maker mechanics and dynamic pricing curves for fair token launches.",
+      technologies: ["Solana", "Rust", "Anchor", "Next.js"],
+      links: [
+        {
+          type: "Website",
+          href: "https://pool.fun.hemantdev.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MrBlackGhostt/pool-fun",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "",
+    },
+    {
+      title: "OrderBook",
+      href: "https://orderbook.hemantdev.com/",
+      dates: "",
+      active: true,
+      image: "/limitDex.png",
+      description:
+        "A high-performance central limit order book (CLOB) implementation on Solana. Features limit order placement, matching engine logic, and real-time order tracking.",
+      technologies: ["Solana", "Rust", "Anchor", "Next.js"],
+      links: [
+        {
+          type: "Website",
+          href: "https://orderbook.hemantdev.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MrBlackGhostt/orderBook",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "",
+    },
+    {
+      title: "LazorKit Wallet",
+      href: "https://lazorkit-wallet.hemantdev.com/",
+      dates: "",
+      active: true,
+      image: "/Lazorkit.png",
+      description:
+        "A modern Solana wallet adapter and UI kit designed for seamless dApp integration. Provides a customizable and lightweight interface for connecting Solana wallets.",
+      technologies: ["Solana", "Wallet Adapter", "React", "Tailwind CSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://lazorkit-wallet.hemantdev.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MrBlackGhostt/kit",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "",
+    },
+    {
+      title: "NextTube - YouTube Clone",
+      href: "https://nexttube.hemantdev.com",
+      dates: "",
+      active: true,
+      image: "/nextTube.png",
+      description:
+        "Built using Next.js for server-side rendering and optimized performance. Integrated NextAuth.js for authentication with Google. Implemented robust search feature and utilized YouTube API to fetch real-time video data. Fully responsive across all devices.",
+      technologies: ["Next.js", "NextAuth.js", "YouTube API"],
+      links: [
+        {
+          type: "Website",
+          href: "https://nexttube.hemantdev.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MrBlackGhostt/nextTube",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "",
+    },
+  ],
+  hackathons: [],
+} as const;
