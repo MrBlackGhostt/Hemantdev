@@ -147,7 +147,7 @@ export const DATA = {
       href: "https://solbet.hemantdev.com/",
       dates: "",
       active: true,
-      image: "/solbet.png",
+      image: "/solbet.jpg",
       description:
         "A decentralized prediction market on Solana allowing users to bet on future events. Built with Anchor and Rust, featuring secure escrow handling and outcome resolution.",
       technologies: ["Solana", "Rust", "Anchor", "Next.js"],
