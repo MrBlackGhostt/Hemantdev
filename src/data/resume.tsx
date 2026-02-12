@@ -18,8 +18,7 @@ export const DATA = {
     "Full-Stack & Solana Developer. Building modern web apps and blockchain solutions.",
   summary:
     "I'm a Full-Stack Developer specializing in building modern web applications and Solana blockchain solutions. I've worked across the entire stack—from crafting pixel-perfect UIs with React and Next.js to architecting smart contracts in Rust and Anchor. I've shipped production applications for startups in electric vehicles, sports streaming, and tourism, while actively contributing to the Web3 ecosystem. Currently learning and building in the Solana space, focusing on DeFi protocols, AMMs, and distributed systems.",
-  avatarUrl:
-    "https://i.pinimg.com/1200x/94/82/0d/94820deeadd632ae32c3069e85907c8b.jpg",
+  avatarUrl: "/me.jpg",
   skills: [
     { name: "Anchor Framework" },
     { name: "SPL Tokens" },
