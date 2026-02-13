@@ -212,6 +212,35 @@ export const DATA = {
       video: "",
     },
     {
+      title: "SolPay",
+      href: "https://solpay.hemantdev.com",
+      dates: "Feb 2026",
+      active: true,
+      image: "/solpay.jpg",
+      description:
+        "A seamless crypto payment dashboard on Solana. Features unified token transfers (SOL & SPL), real-time contact syncing, and secure wallet authentication via Privy.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Solana",
+        "Privy",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://solpay.hemantdev.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/MrBlackGhostt/Solpay",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "",
+    },
+    {
       title: "LazorKit Wallet",
       href: "https://lazorkit-wallet.hemantdev.com/",
       dates: "",
