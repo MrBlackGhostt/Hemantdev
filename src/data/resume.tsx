@@ -113,7 +113,7 @@ export const DATA = {
       title: "Frontend Developer",
       logoUrl: "/disporty-logo.webp",
       start: "Jan 2024",
-      end: "Oct 2024",
+      end: "Sep 2024",
       description:
         "Engineered optimized UI using React, Next.js, and Tailwind CSS. Boosted performance by migrating 60% of client-side components to SSR. Secured authentication with NextAuth.js and developed backend functionalities using Node.js and FastAPI. Replaced Material UI with Shadcn UI for consistency and improved styling.",
     },
@@ -125,7 +125,7 @@ export const DATA = {
       title: "Frontend Developer",
       logoUrl:
         "https://dbcpictures.s3.ap-south-1.amazonaws.com/logo+and+graphics/transparent+logo+DBC.webp",
-      start: "Nov 2022",
+      start: "Mar 2023",
       end: "Dec 2023",
       description:
         "Built responsive, high-performance user interfaces using React, Redux Toolkit, Tailwind CSS, and Material-UI. Spearheaded UI enhancements that significantly improved user experience. Engineered pixel-perfect, customizable themes using React hooks, Redux, and styled components.",
